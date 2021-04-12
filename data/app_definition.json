@@ -1,0 +1,105 @@
+[
+    {
+        "id": 0,
+        "name": "water_pipe_control",
+        "module":
+        [
+            {
+                "id": 0,
+                "name": "water_sensor",
+                "RAM": 30
+            },
+            {
+                "id": 1,
+                "name": "values_checker",
+                "RAM": 30
+            },
+            {
+                "id": 2,
+                "name": "valve_controller",
+                "RAM": 30
+            },
+            {
+                "id": 3,
+                "name": "statistics",
+                "RAM": 30
+            }
+        ],
+        "message": 
+        [
+            {
+                "id": 0,
+                "name": "sensor_to_cloudlet",
+                "s": "None",
+                "d": "values_checker",
+                "bytes": 10000,
+                "instructions": 5000
+            },
+            {
+                "id": 1,
+                "name": "cloudlet_to_valve",
+                "s": "None",
+                "d": "valve_controller",
+                "bytes": 5000,
+                "instructions": 1000
+            },
+            {
+                "id": 2,
+                "name": "cloudlet_to_cloudlet",
+                "s": "None",
+                "d": "values_checker",
+                "bytes": 5000,
+                "instructions": 1000
+            },
+            {
+                "id": 3,
+                "name": "cloudlet_to_cloud",
+                "s": "None",
+                "d": "statistics",
+                "bytes": 20000000,
+                "instructions": 6000
+            },
+            {
+                "id": 4,
+                "name": "activation",
+                "s": "None",
+                "d": "water_sensor",
+                "bytes": 1,
+                "instructions": 1
+            }
+        ],
+        "transmission": 
+        [
+            {
+                "module": "values_checker",
+                "message_in": "sensor_to_cloudlet",
+                "message_out": "cloudlet_to_cloudlet",
+                "fractional": 0.6
+            },
+            {
+                "module": "values_checker",
+                "message_in": "sensor_to_cloudlet",
+                "message_out": "cloudlet_to_valve",
+                "fractional": 0.5
+            },
+            {
+                "module": "values_checker",
+                "message_in": "sensor_to_cloudlet",
+                "message_out": "cloudlet_to_cloud",
+                "fractional": 0.1
+            } ,
+            {
+                "module": "valve_controller",
+                "message_in": "cloudlet_to_valve"
+            },
+            {
+                "module": "statistics",
+                "message_in": "cloudlet_to_cloud"
+            },
+            {
+                "module": "water_sensor",
+                "message_in": "activation"
+            }
+        ]
+    }
+]

@@ -1,0 +1,50 @@
+{
+    "sources": 
+    [
+        {
+            "id_resource": 4,
+            "app": "water_pipe_control",
+            "message": "sensor_to_cloudlet"
+        },
+        {
+            "id_resource": 5,
+            "app": "water_pipe_control",
+            "message": "sensor_to_cloudlet"
+        },
+        {
+            "id_resource": 6,
+            "app": "water_pipe_control",
+            "message": "sensor_to_cloudlet"
+        },
+        {
+            "id_resource": 7,
+            "app": "water_pipe_control",
+            "message": "sensor_to_cloudlet"
+        },
+        {
+            "id_resource": 8,
+            "app": "water_pipe_control",
+            "message": "sensor_to_cloudlet"
+        },
+        {
+            "id_resource": 9,
+            "app": "water_pipe_control",
+            "message": "sensor_to_cloudlet"
+        },
+        {
+            "id_resource": 10,
+            "app": "water_pipe_control",
+            "message": "sensor_to_cloudlet"
+        },
+        {
+            "id_resource": 11,
+            "app": "water_pipe_control",
+            "message": "sensor_to_cloudlet"
+        },
+        {
+            "id_resource": 12,
+            "app": "water_pipe_control",
+            "message": "sensor_to_cloudlet"
+        }
+    ]  
+}

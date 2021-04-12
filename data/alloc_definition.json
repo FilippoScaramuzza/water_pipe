@@ -1,0 +1,115 @@
+{
+    "initialAllocation": 
+    [
+        {
+            "module_name": "water_sensor",
+            "app": "water_pipe_control",
+            "id_resource": 4
+        },
+        {
+            "module_name": "water_sensor",
+            "app": "water_pipe_control",
+            "id_resource": 5
+        },
+        {
+            "module_name": "water_sensor",
+            "app": "water_pipe_control",
+            "id_resource": 6
+        },
+        {
+            "module_name": "water_sensor",
+            "app": "water_pipe_control",
+            "id_resource": 7
+        },
+        {
+            "module_name": "water_sensor",
+            "app": "water_pipe_control",
+            "id_resource": 8
+        },
+        {
+            "module_name": "water_sensor",
+            "app": "water_pipe_control",
+            "id_resource": 9
+        },
+        {
+            "module_name": "water_sensor",
+            "app": "water_pipe_control",
+            "id_resource": 10
+        },
+        {
+            "module_name": "water_sensor",
+            "app": "water_pipe_control",
+            "id_resource": 11
+        },
+        {
+            "module_name": "water_sensor",
+            "app": "water_pipe_control",
+            "id_resource": 12
+        },
+        {
+            "module_name": "valve_controller",
+            "app": "water_pipe_control",
+            "id_resource": 4
+        },
+        {
+            "module_name": "valve_controller",
+            "app": "water_pipe_control",
+            "id_resource": 5
+        },
+        {
+            "module_name": "valve_controller",
+            "app": "water_pipe_control",
+            "id_resource": 6
+        },
+        {
+            "module_name": "valve_controller",
+            "app": "water_pipe_control",
+            "id_resource": 7
+        },
+        {
+            "module_name": "valve_controller",
+            "app": "water_pipe_control",
+            "id_resource": 8
+        },
+        {
+            "module_name": "valve_controller",
+            "app": "water_pipe_control",
+            "id_resource": 9
+        },
+        {
+            "module_name": "valve_controller",
+            "app": "water_pipe_control",
+            "id_resource": 10
+        },
+        {
+            "module_name": "valve_controller",
+            "app": "water_pipe_control",
+            "id_resource": 11
+        },
+        {
+            "module_name": "valve_controller",
+            "app": "water_pipe_control",
+            "id_resource": 12
+        },
+        {
+            "module_name": "values_checker",
+            "app": "water_pipe_control",
+            "id_resource": 1
+        },
+        {
+            "module_name": "values_checker",
+            "app": "water_pipe_control",
+            "id_resource": 2
+        },
+        {
+            "module_name": "values_checker",
+            "app": "water_pipe_control",
+            "id_resource": 3
+        },
+        {
+            "module_name": "statistics",
+            "app": "water_pipe_control",
+            "id_resource": 0
+        }
+    ]
+}
